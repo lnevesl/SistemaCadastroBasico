@@ -16,10 +16,12 @@ public class MedicoEntity {
     private Long medicoId;
 
     @Setter
+    @Getter
     @Column(name = "nome_Medico", nullable = false)
     private String nomeMedico;
 
     @Setter
+    @Getter
     @Column(name = "telefone_Cliente", nullable = false)
     private String crmMedico;
 
